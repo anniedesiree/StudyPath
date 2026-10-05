@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(
+            135deg,
+            #4BC89F,
+            #65C5E8
+    );
+}
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.perfil-card{
+    width:500px;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:
+            0 5px 15px rgba(0,0,0,0.15);
+}
+
+.avatar{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.avatar i{
+    font-size:90px;
+    color:#4BC89F;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.campo{
+    margin-bottom:20px;
+}
+
+.campo label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:bold;
+    color:#444;
+}
+
+.campo input{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:bold;
+    border-radius:10px;
+    background:linear-gradient(
+            90deg,
+            #B7F0C6,
+            #90D8FF
+    );
+    margin-top:10px;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+.sucesso{
+    background:#dff7df;
+    color:#0a6b0a;
+    padding:12px;
+    border-radius:8px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.acoes{
+    margin-top:25px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.acoes a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.acoes a:hover{
+    color:#0077ff;
+}
+
+.esqueci-senha{
+    text-align:center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.esqueci-senha a{
+    text-decoration:none;
+    color:#0077ff;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.esqueci-senha a:hover{
+    text-decoration:underline;
+}
